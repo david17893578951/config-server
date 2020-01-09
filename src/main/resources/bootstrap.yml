@@ -1,4 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka-server-app.herokuapp.com/eureka/
+        
+  
 spring:
+  application:
+    name: Config-Server
   cloud:
     config:
       server:
